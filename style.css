@@ -1,23 +1,28 @@
 body {
-  /* background-image: url("images/concrete-texture.png"); */
-  background-image: url("images/agsquare.png");
-  /* background-image: url("images/p5.png"); */
-  /* background: linear-gradient(to right, #b06ab3, #4568dc); */
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 
-/* --------- tool section -----------*/
-
-.main {
+.logo {
+  color: #4A4A4A;
+  font-size: 36px;
   text-align: center;
-  overflow: hidden;
-  top: 110px;
-  position: relative;
-  margin-top: 3%;
-  margin: 0 auto;
-  background: linear-gradient(to right, #b06ab3, #4568dc);
-  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-  height: 400px;
-  width: 800px;
+  margin-top: 6%;
+  font-family: pacifico;
+}
+
+.forget {
+  margin-top: 5%;
+  color: #4A4A4A;
+  font-size: 55px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 'Merriweather', serif;
+}
+
+.under-forget {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #4a4a4a;
 }
